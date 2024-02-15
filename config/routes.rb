@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   resources "bitcoins"
   # get "bitcoins", :controller => "bitcoins", :action => "index"
   resources "companies"
+  # get "companies", :controller => "companies", :action => "index"
+  # get "companies/123", :controller => "companies", :action => "index"
+
   resources "contacts"
   resources "posts"
 end
